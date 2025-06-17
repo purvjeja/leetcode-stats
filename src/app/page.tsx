@@ -36,8 +36,6 @@ type ApiResponse = {
   };
 };
 
-const COLORS = ["#82ca9d", "#8884d8", "#ff7f50"];
-
 export default function Home() {
   const [data, setData] = useState<LeetCodeRecord[]>([]);
   const [activeTab, setActiveTab] = useState<"stats" | "form">("stats");
